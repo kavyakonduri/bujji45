@@ -1,0 +1,22 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+        System.out.println("enter the string");
+        String c=sc.nextLine();
+        System.out.println("enter no of times");
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+          System.out.println(c);
+        }
+}
+}
